@@ -1,16 +1,13 @@
 import { useState } from "react";
 import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+import Header from "./components/Header";
 
+function App() {
   return (
-    <>
-      <div className="bg-green-500 text-white p-4 rounded-md">
-        Tailwind 정상 작동!
-      </div>
-      ㅊ
-    </>
+    <div className="relative mx-auto bg-gray-800 text-white pb-[1000px]">
+      <Header />
+    </div>
   );
 }
 
